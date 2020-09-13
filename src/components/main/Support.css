@@ -1,0 +1,8 @@
+.support1{
+    background-color: #EDFCFA;
+  }
+  .support1:hover {
+    background-color: #20D3C2;
+    transform: scale(1);
+    color: white!important;
+  }

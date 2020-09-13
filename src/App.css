@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+body{
+  max-width: 1920px;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+/*HEADER CSS*/ 
+
+.back{
+  background-color:#20D3C2;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.searchicon{
+  height: 46px;
+  width: 46px;
+}
+.heightcategories {
+  height: 46px;
+  width: 142px;
+
+}
+.searchproducts{
+  width: 330px;
+}
+.account {
+  width: 285px;
+  font-size: 16px;
+}
+.bb{
+  font-size: 18px;
+}
+.size{
+  font-size: 16px;
+ 
+}
+.li-padding{
+  padding: 5px;
+
+}
+.li-border{
+  border-bottom: 3PX solid #20D3C2;
+}
+.mbrowserknapp{
+  margin-top: -25px;
+}
+
+/* END HEADER CSS*/ 
+/* END mainCSS*/ 
+.color{
+  color: #20D3C2;
+}
+.font-siz{
+  font-size: 60px;
+}
+.mbottom{
+  margin-top: -23px;
+}
+.hi{
+  height: 418px;
+  margin-top: -22px;
+}
+.border-dashed{
+  border: 3px dashed #20D3C2; 
+}
+
+.backgroundFlash {
+  background-color: #292F51;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  /*this gives the dimension of slider container*/
+  /*these values will make the container as big as the parent div*/
+  overflow: hidden;
+  /*important parameter to not disrupt the container when slides increases in coverflow and other effect*/
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  /*.swiper-slide {
+  width:300px;
+  height:1000px;*/
+  /*this one holds the dimension of each slides and can be changed according to the user wish*/
+  
+  .backgroundnow{
+    background-image: url(./components/main/Backgroundimage.png);
+    background-repeat: no-repeat;
+   
+    
   }
-  to {
-    transform: rotate(360deg);
+  ::placeholder  {
+    color: #ABABAB;
+    background-color: none;
   }
+  @media screen and (max-width: 769px) {
+   
+   .subs {
+    display: none;
+   }
+   .subscribe{
+     margin-top: 70px;
+   }
+    .company{
+      margin:20px
+    }
+    .swiper-container {
+      width: 768px;
+    }
+    .shopby{
+      margin-top: 272px!important;
+    }
+   .sun{
+      margin-left: -135px!important;
+      margin-bottom: 30px!important;
+    }
+    .square{
+      margin-bottom: 30px!important;
+    }
+    .vertical , .horizontal{
+       width: 80%!important;
+    }
+    .h{
+      width: 80%!important;
+      height: 50%!important;
+    }
+    .sellers{
+      height: 75%!important;
+      width:75%!important;
+      margin-left: -31px;
+    }
+    .ii{
+      margin-left: -15px;
+    }
+  
+.swiper-container {
+width: 100%!important;
 }
+.blog1 , .socialmedia ,.contact , .count  {
+  display: none;
+}
+.searchproduct{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.SPECIALOFFER{
+  margin-bottom: 20px;
+}
+
+.blog{
+  width:60%;
+  height: 80%;
+  margin-top: 70px;
+}
+
+.img11{
+  height: 90%!important;
+  width:90%!important;
+}
+.p11{
+  width: 204px!important;
+}
+.m11{
+  margin-top: 50px;
+}
+.m22{
+  margin-left: 100px;
+}
+
+   
+
+  }
+  
